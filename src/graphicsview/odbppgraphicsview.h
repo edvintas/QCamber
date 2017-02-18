@@ -23,7 +23,8 @@
 #ifndef __ODBPPGRAPHICSVIEW_H__
 #define __ODBPPGRAPHICSVIEW_H__
 
-#include <QGraphicsView>
+#include <QtWidgets/QScrollBar>
+#include <QtWidgets/QGraphicsView>
 #include "graphicslayer.h"
 #include "profile.h"
 

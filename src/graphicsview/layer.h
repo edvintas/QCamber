@@ -23,14 +23,14 @@
 #ifndef __LAYER_H__
 #define __LAYER_H__
 
-#include <QGraphicsScene>
+#include <QtWidgets/QGraphicsScene>
 
 #include "layerfeatures.h"
 #include "graphicslayer.h"
 #include "graphicslayerscene.h"
 #include "notes.h"
 #include "symbol.h"
-#include <QTextEdit>
+#include <QtWidgets/QTextEdit>
 
 class Layer: public GraphicsLayer {
 public:

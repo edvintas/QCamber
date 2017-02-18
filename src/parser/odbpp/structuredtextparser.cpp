@@ -54,10 +54,10 @@ StructuredTextDataStore* StructuredTextParser::parse(void)
 
     yyin = _wfopen(buf, (const wchar_t*)"r");
   } else {
-    yyin = fopen(m_fileName.toAscii(), "r");
+    yyin = fopen(m_fileName.toUtf8(), "r");
   }
 #else
-  yyin = fopen(m_fileName.toAscii(), "r");
+  yyin = fopen(m_fileName.toUtf8(), "r");
 #endif
 
   if (yyin == NULL) {

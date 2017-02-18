@@ -11,6 +11,11 @@ include (symbol/symbol.pri)
 include (graphicsview/graphicsview.pri)
 include (gui/gui.pri)
 
+QT += core gui
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+
 HEADERS += \
   archiveloader.h \
   context.h \

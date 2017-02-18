@@ -23,7 +23,7 @@
 #ifndef __GRAPHICSLAYERSCENE__
 #define __GRAPHICSLAYERSCENE__
 
-#include <QGraphicsScene>
+#include <QtWidgets/QGraphicsScene>
 #include <QList>
 
 #include "symbol.h"

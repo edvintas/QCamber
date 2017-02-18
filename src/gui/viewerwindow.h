@@ -24,12 +24,12 @@
 #define __MAINWINDOW_H__
 
 #include <QColor>
-#include <QLabel>
+#include <QtWidgets/QLabel>
 #include <QList>
-#include <QMainWindow>
+#include <QtWidgets/QMainWindow>
 #include <QMap>
 #include <QSignalMapper>
-#include <QVBoxLayout>
+#include <QtWidgets/QVBoxLayout>
 
 #include "context.h"
 #include "featurepropertiesdialog.h"

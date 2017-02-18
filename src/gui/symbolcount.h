@@ -23,9 +23,9 @@
 #ifndef SYMBOLCOUNT_H
 #define SYMBOLCOUNT_H
 
-#include <QDialog>
-#include <QTextEdit>
-#include <QVBoxLayout>
+#include <QtWidgets/QDialog>
+#include <QtWidgets/QTextEdit>
+#include <QtWidgets/QVBoxLayout>
 
 namespace Ui {
 class symbolcount;

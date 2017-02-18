@@ -27,7 +27,7 @@
 
 #include <QBrush>
 #include <QPen>
-#include <QGraphicsItem>
+#include <QtWidgets/QGraphicsItem>
 #include <QMap>
 #include <QPainter>
 #include <QPainterPath>

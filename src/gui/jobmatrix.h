@@ -23,9 +23,9 @@
 #ifndef JOBMATRIX_H
 #define JOBMATRIX_H
 
-#include <QDialog>
+#include <QtWidgets/QDialog>
 #include <QSignalMapper>
-#include <QTableWidget>
+#include <QtWidgets/QTableWidget>
 
 #include "structuredtextparser.h"
 #include "odbppgraphicsview.h"

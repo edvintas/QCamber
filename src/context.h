@@ -26,7 +26,7 @@
 #include "archiveloader.h"
 #include "featuresparser.h"
 
-#include <QGraphicsScene>
+#include <QtWidgets/QGraphicsScene>
 
 struct Context {
   Context();

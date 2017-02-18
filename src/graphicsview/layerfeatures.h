@@ -23,13 +23,13 @@
 #ifndef __LAYERFEATURES_H__
 #define __LAYERFEATURES_H__
 
-#include <QGraphicsScene>
-#include <QGridLayout>
+#include <QtWidgets/QGraphicsScene>
+#include <QtWidgets/QGridLayout>
 #include <QList>
 #include <QMap>
 #include <QStandardItemModel>
 #include <QString>
-#include <QTextEdit>
+#include <QtWidgets/QTextEdit>
 
 #include "featuresparser.h"
 #include "macros.h"

@@ -23,8 +23,8 @@
 #ifndef __JOBMANAGERDIALOG_H__
 #define __JOBMANAGERDIALOG_H__
 
-#include <QFileSystemModel>
-#include <QWidget>
+#include <QtWidgets/QFileSystemModel>
+#include <QtWidgets/QWidget>
 
 #ifdef Q_WS_WIN
 # define TAR_CMD "./tar"

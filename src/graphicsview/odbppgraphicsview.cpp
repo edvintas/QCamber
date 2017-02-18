@@ -44,12 +44,7 @@ ODBPPGraphicsView::ODBPPGraphicsView(QWidget* parent): QGraphicsView(parent),
   setViewportUpdateMode(BoundingRectViewportUpdate);
   setZoomMode(AreaZoom);
 
-  connect(m_scene, SIGNAL(rectSelected(QRectF)), this,
-      SLOT(zoomToRect(QRectF)));
-  connect(horizontalScrollBar(), SIGNAL(valueChanged(int)),
-      this, SLOT(updateLayerViewport(void)));
-  connect(verticalScrollBar(), SIGNAL(valueChanged(int)),
-      this, SLOT(updateLayerViewport(void)));
+  connect(m_scene, SIGNAL(rectSelected(QRectF)), this, SLOT(zoomToRect(QRectF)));
 }
 
 ODBPPGraphicsView::~ODBPPGraphicsView()

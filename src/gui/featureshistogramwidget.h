@@ -23,7 +23,7 @@
 #ifndef FEATURESHISTOGRAMWIDGET_H
 #define FEATURESHISTOGRAMWIDGET_H
 
-#include <QWidget>
+#include <QtWidgets/QWidget>
 #include <QStandardItemModel>
 
 namespace Ui {

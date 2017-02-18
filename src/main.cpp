@@ -21,6 +21,7 @@
  */
 
 #include <QtGui>
+#include <QtWidgets/QApplication>
 
 #include "code39.h"
 #include "context.h"
@@ -30,8 +31,11 @@
 int main(int argc, char *argv[])
 {
   QApplication app(argc, argv);
-  QApplication::setGraphicsSystem("raster");
-  QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
+  QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
+
+  QFontDatabase::addApplicationFont("/usr/share/fonts/truetype/freefont/FreeMono.ttf");
+
+
 
   Code39::initPatterns();
   Settings::load("config.ini");

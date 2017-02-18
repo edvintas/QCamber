@@ -23,7 +23,7 @@
 #ifndef __FEATUREPROPERTIESDIALOG_H__
 #define __FEATUREPROPERTIESDIALOG_H__
 
-#include <QDialog>
+#include <QtWidgets/QDialog>
 
 #include "symbol.h"
 

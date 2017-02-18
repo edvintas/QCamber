@@ -22,7 +22,7 @@
 
 #ifndef __CLICKABLE_LABEL_H__
 #define __CLICKABLE_LABEL_H__
-#include <QLabel>
+#include <QtWidgets/QLabel>
 
 class ClickableLabel : public QLabel
 {

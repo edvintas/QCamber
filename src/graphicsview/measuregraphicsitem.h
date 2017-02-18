@@ -23,7 +23,7 @@
 #ifndef __MEASUREGRAPHICSITEM__
 #define __MEASUREGRAPHICSITEM__
 
-#include <QGraphicsItem>
+#include <QtWidgets/QGraphicsItem>
 
 class MeasureGraphicsItem: public QGraphicsItem {
 public:

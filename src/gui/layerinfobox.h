@@ -24,9 +24,9 @@
 #define __LAYERINFOBOX_H__
 
 #include <QColor>
-#include <QMenu>
+#include <QtWidgets/QMenu>
 #include <QString>
-#include <QWidget>
+#include <QtWidgets/QWidget>
 
 #include "featureshistogramwidget.h"
 #include "layer.h"

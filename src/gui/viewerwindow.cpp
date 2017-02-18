@@ -25,6 +25,7 @@
 
 #include <QtGui>
 #include <QDebug>
+#include <QtWidgets>
 
 #include "context.h"
 #include "layerinfobox.h"

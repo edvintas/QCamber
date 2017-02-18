@@ -23,7 +23,7 @@
 #ifndef __GRAPHICSLAYER_H__
 #define __GRAPHICSLAYER_H__
 
-#include <QGraphicsScene>
+#include <QtWidgets/QGraphicsScene>
 
 #include "graphicslayerscene.h"
 #include "layerfeatures.h"

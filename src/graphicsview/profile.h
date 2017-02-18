@@ -24,7 +24,7 @@
 #define __PROFILE_H__
 
 #include <QString>
-#include <QGraphicsScene>
+#include <QtWidgets/QGraphicsScene>
 #include <QList>
 
 #include "layerfeatures.h"

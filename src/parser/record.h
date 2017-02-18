@@ -23,7 +23,7 @@
 #ifndef __RECORD_H__
 #define __RECORD_H__
 
-#include <QGraphicsScene>
+#include <QtWidgets/QGraphicsScene>
 #include <QMap>
 #include <QPainterPath>
 #include <QString>

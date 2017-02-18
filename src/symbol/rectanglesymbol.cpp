@@ -34,7 +34,7 @@ RectangleSymbol::RectangleSymbol(const QString& def, const Polarity& polarity,
 {
   QRegExp rx(m_pattern);
   if (!rx.exactMatch(def))
-    throw InvalidSymbolException(def.toAscii());
+    throw InvalidSymbolException(def.toUtf8());
 
   QStringList caps = rx.capturedTexts();
   m_w = caps[1].toDouble() / 1000.0;
@@ -51,7 +51,7 @@ RectangleSymbol::RectangleSymbol(const QString& def, const Polarity& polarity,
   }
   if (caps[5].length()) {
     m_corners = 0;
-    QByteArray cors = caps[5].toAscii();
+    QByteArray cors = caps[5].toUtf8();
     for (int i = 0; i < cors.count(); ++i) {
       m_corners |= (1 << (cors[i] - '1'));
     }

@@ -23,7 +23,9 @@
 #ifndef __ODBPPGRAPHICSSCENE_H__
 #define __ODBPPGRAPHICSSCENE_H__
 
-#include <QGraphicsScene>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QGraphicsScene>
+#include <QtWidgets/QGraphicsSceneMouseEvent>
 #include <QPointF>
 
 #include "graphicslayer.h"

@@ -24,6 +24,7 @@
 #include "ui_jobmanagerdialog.h"
 
 #include <QtGui>
+#include <QtWidgets>
 
 #include "context.h"
 #include "jobmatrix.h"

@@ -23,9 +23,9 @@
 #ifndef __SETTINGSDIALOG_H__
 #define __SETTINGSDIALOG_H__
 
-#include <QDialog>
+#include <QtWidgets/QDialog>
 #include <QSignalMapper>
-#include <QToolButton>
+#include <QtWidgets/QToolButton>
 
 namespace Ui {
 class SettingsDialog;

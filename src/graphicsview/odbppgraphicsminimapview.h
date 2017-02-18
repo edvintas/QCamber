@@ -23,8 +23,8 @@
 #ifndef __ODBPPGRAPHICSMINIMAPVIEW_H__
 #define __ODBPPGRAPHICSMINIMAPVIEW_H__
 
-#include <QGraphicsView>
-#include <QGraphicsRectItem>
+#include <QtWidgets/QGraphicsView>
+#include <QtWidgets/QGraphicsRectItem>
 
 #include "layer.h"
 #include "odbppgraphicsscene.h"
